@@ -1,0 +1,77 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body .container-grid-background .overall-grid {
+  background: #80808017 !important;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+          box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+  color: red;
+}
+
+body .container-grid-background .overall-grid .main-heading {
+  margin-bottom: 0.5 rem;
+  font-weight: 100;
+  line-height: 2.2;
+  font-size: 1.8rem !important;
+  color: red;
+}
+
+body .container-grid-background .overall-grid .main-heading p {
+  line-height: 2.2;
+  font-size: 14px;
+}
+
+body .container-grid-background .overall-grid .main-heading h1 {
+  line-height: 2.2;
+  font-size: 1.8rem !important;
+}
+
+body .container-grid-background .overall-grid .main-heading.heading-one {
+  background-color: green;
+}
+
+body .container-grid-background .overall-grid .grid-background .content-one {
+  background: #f8f9fa;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+          box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+  border-top: 7px solid #2bd2ce;
+}
+
+body .container-grid-background .overall-grid .grid-background .content-two {
+  background: #f8f9fa;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+          box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+  border-top: 7px solid #e64652;
+}
+
+body .container-grid-background .overall-grid .grid-background .content-three {
+  background: #f8f9fa;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+          box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+  border-top: 7px solid #3087cc;
+}
+
+body .container-grid-background .overall-grid .grid-background .content-four {
+  background: #f8f9fa;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+          box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+  border-top: 7px solid #deb57b;
+}
+
+body .container-grid-background .overall-grid .grid-background img.img-icon {
+  float: right;
+  height: 80px;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  body .container-grid-background .overall-grid .grid-background .content-two {
+    margin-top: 40px;
+  }
+  body .container-grid-background .overall-grid .grid-background .content-three {
+    margin-top: 40px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
